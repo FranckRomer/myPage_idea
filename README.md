@@ -15,4 +15,4 @@ vamos a agregar un archivo HTML
 se abre una ventana la cual no pododemos escapar, a menos que debemos agregar un mensaje
 salimos con:
 
-Esc + Shift + zz
+`Esc + Shift + zz`
