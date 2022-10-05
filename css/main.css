@@ -1,7 +1,94 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 body{
+    
+    border: 0;
+    padding: 0;
+    margin: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(90deg, #090979, black, #090979);
+    /* background: linear-gradient(90deg, #00c5ff, black, #0fe5b0); */
+    background: linear-gradient(to bottom,  #090979, #141415);
     color: aliceblue;
 }
+
+/* ------------- header ------------- */
+
+header{
+    width: auto;
+    height: 120px;
+    padding: 0;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo_header img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.header_menu ul{
+    display: flex;
+}
+
+.header_menu li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px 30px;
+    border: 1px solid #141415;
+    background-color: #141415;
+    color: #ffdc46;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+/* ------------- MAIN ------------- */
+main{
+    width: auto;
+    height: 100vh;
+}
+
+.mundos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.list_but, .money_but{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 28px;
+    cursor: pointer;
+}
+.list_but{
+    background-color: transparent;
+    color: aliceblue;
+    margin-left: 20%;
+    border: 10px solid #00c5ff;
+}
+
+
+
+.money_but{
+    background-color: #0fe5b0;
+    margin-right: 20%;
+}
+
