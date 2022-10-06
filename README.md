@@ -16,3 +16,5 @@ se abre una ventana la cual no pododemos escapar, a menos que debemos agregar un
 salimos con:
 
 `Esc + Shift + zz`
+
+AHORA NO SE CAMBIA
