@@ -92,3 +92,21 @@ main{
     margin-right: 20%;
 }
 
+.contact .contact_but{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10%;
+    font: 20px Helvetica;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffdc46;
+    background-color: black;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 20px 0px rgba(255, 255, 255, 0.5);
+}
+.contact_but:hover{
+    color: white;
+}
